@@ -1,0 +1,28 @@
+body {
+	margin:20px 20px 0 0;
+	font-size:13px;
+}
+
+a {
+	font-family:sans-serif;
+	text-decoration:none;
+	color:#555555;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.headerMenu {
+	float:right;
+	margin:0 10px 0 0;
+}
+
+.headerMenu button {
+	background-color:#4285f4;
+	border: 1px solid #4285f4;
+	padding:7px 12px;
+	border-radius: 2px;
+	color:#ffffff;
+	font-weight:bold;
+}
