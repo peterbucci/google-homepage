@@ -37,12 +37,32 @@ a:hover {
 	font-weight:bold;
 }
 
+.headerMenu button:active {
+	background-color:#3c78dc;
+}
+
 .clear {
 	clear:both;
 }
 
 #logo {
-	margin:150px auto;
+	margin:150px auto 0 auto;
 	width:100%;
 	text-align:center;
+}
+
+#searchBox {
+	margin-top:30px;
+	width:100%;
+	text-align:center;
+}
+
+#searchBox form input {
+	border:solid 1px #b9b9b9;
+	height:36px;
+	width:50%;
+}
+
+#searchBox form input:hover {
+	border:solid 1px #a0a0a0;
 }
